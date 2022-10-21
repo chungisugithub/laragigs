@@ -43,8 +43,7 @@ class="lg:grid lg:grid-cols-2 gap-4 space-y-4 md:space-y-0 mx-4"
                     </li>
                 </ul>
                 <div class="text-lg mt-4">
-                    <i class="fa-solid fa-location-dot"></i> Boston,
-                    MA
+                    <i class="fa-solid fa-location-dot"></i> {{$listing->location}}
                 </div>
             </div>
         </div>
