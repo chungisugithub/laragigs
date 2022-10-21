@@ -22,3 +22,7 @@ Route::get('/hello', function() {
         ->header('Content-Type', 'text/plain')
         ->header('foo', 'bar');
 });
+
+Route::get('/posts/{id}', function($id) {
+    return response('Post '. $id);
+});
