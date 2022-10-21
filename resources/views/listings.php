@@ -1,1 +1,1 @@
-<h1><?php echo $listings;?></h1>
+<h1><?php echo $heading;?></h1>
