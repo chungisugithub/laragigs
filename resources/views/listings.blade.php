@@ -1,8 +1,8 @@
 <h1>{{$heading}}</h1>
-@php
-    $test = 1123;
-@endphp
-{{$test}}
+
+@if(count($listings) == 0)
+ <p>No listings found</p>  
+@endif
 
 @foreach($listings as $listing)
     <h2>{{$listing['title']}}</h2>
