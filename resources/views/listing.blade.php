@@ -15,7 +15,7 @@
             alt=""
         />
 
-        <h3 class="text-2xl mb-2">Senior Laravel Developer</h3>
+        <h3 class="text-2xl mb-2">{{$listing->title}}</h3>
         <div class="text-xl font-bold mb-4">Acme Corp</div>
         <ul class="flex">
             <li
