@@ -11,7 +11,7 @@
     >
         <img
             class="w-48 mr-6 mb-6"
-            src="images/acme.png"
+            src="{{asset('images/no-image.png')}}"
             alt=""
         />
 
