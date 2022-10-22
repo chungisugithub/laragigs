@@ -51,7 +51,7 @@
                 {{$listing->description}}
 
                 <a
-                    href="mailto:test@test.com"
+                    href="mailto:{{$listing->email}}"
                     class="block bg-laravel text-white mt-6 py-2 rounded-xl hover:opacity-80"
                     ><i class="fa-solid fa-envelope"></i>
                     Contact Employer</a
