@@ -22,6 +22,9 @@ class="p-10 max-w-lg mx-auto mt-24"
             class="border border-gray-200 rounded p-2 w-full"
             name="company"
         />
+        @error('company')
+            <p class="text-red-500 text-xs mt-1">{{$message}}</p>
+        @enderror
     </div>
 
     <div class="mb-6">
