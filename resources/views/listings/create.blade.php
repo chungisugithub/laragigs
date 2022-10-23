@@ -9,7 +9,7 @@ class="p-10 max-w-lg mx-auto mt-24"
     <p class="mb-4">Post a gig to find a developer</p>
 </header>
 
-<form action="">
+<form method="POST" action="/listings">
     <div class="mb-6">
         <label
             for="company"
