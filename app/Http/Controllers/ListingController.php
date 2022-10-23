@@ -15,7 +15,7 @@ class ListingController extends Controller
 
     // Show single listing
     public function show(Listing $listing) {
-        return view('listing.index', [
+        return view('listing.show', [
             'listing' => $listing
         ]);
     }
