@@ -36,6 +36,8 @@ Route::post('/listings', [ListingController::class, 'store']);
 // Show Edit Data
 Route::get('/listings/{listing}/edit',[ListingController::class, 'edit']);
 
+// Update Listing
+Route::put('/listings/{listing}', [ListingController::class, 'update']);
 
 // Single Listing
 Route::get('/listings/{listing}', [ListingController::class, 'show']);
