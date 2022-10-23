@@ -10,6 +10,7 @@ class="p-10 max-w-lg mx-auto mt-24"
 </header>
 
 <form method="POST" action="/listings">
+    @csrf
     <div class="mb-6">
         <label
             for="company"
