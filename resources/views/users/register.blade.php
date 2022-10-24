@@ -18,7 +18,7 @@
                 type="text"
                 class="border border-gray-200 rounded p-2 w-full"
                 name="name"
-                value={{old('name')}}
+                value="{{old('name')}}"
             >
             @Error('name')
                 <p class="text-red-500 text-xs mt-1">{{$message}}</p>
@@ -33,7 +33,7 @@
                 type="email"
                 class="border border-gray-200 rounded p-2 w-full"
                 name="email"
-                value={{old('email')}}
+                value="{{old('email')}}"
             >
             @Error('email')
                 <p class="text-red-500 text-xs mt-1">{{$message}}</p>
@@ -51,7 +51,7 @@
                 type="password"
                 class="border border-gray-200 rounded p-2 w-full"
                 name="password"
-                value={{old('password')}}
+                value="{{old('password')}}"
             >
             @Error('password')
             <p class="text-red-500 text-xs mt-1">{{$message}}</p>
@@ -69,7 +69,7 @@
                 type="password"
                 class="border border-gray-200 rounded p-2 w-full"
                 name="password_confirmation"
-                value={{old('password_confirmation')}}
+                value="{{old('password_confirmation')}}"
             >
             @Error('password_confirmation')
             <p class="text-red-500 text-xs mt-1">{{$message}}</p>
