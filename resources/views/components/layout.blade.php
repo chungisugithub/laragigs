@@ -51,6 +51,7 @@
                         <button type="submit">
                             <i class="fa-solid fa-door-closed"></i>Logout
                         </button>
+                    </form>
                 </li>
                 @else
                 <li>
