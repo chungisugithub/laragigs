@@ -45,7 +45,7 @@ class ListingController extends Controller
             $formFields['logo'] = $request->file('logo')->store('logos', 'public');
         }
 
-        $formFields['user_id'] = auth()->id();
+        $formFields['user_id'] = auth()->id(); // 사용자 저장
 
         Listing::create($formFields);
 
