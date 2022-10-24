@@ -146,7 +146,7 @@ class="p-10 max-w-lg mx-auto mt-24"
     </div>
 
     <div class="mb-6">
-        <button
+        <button type="submit"
             class="bg-laravel text-white rounded py-2 px-4 hover:bg-black"
         >
             Create Gig
