@@ -85,6 +85,10 @@ class ListingController extends Controller
 
     // Delete Listing
     public function destory(Listing $listing) {
+        // Make sure logged in user is owner
+        if($listing->user_id != auth()->id()) {
+            abort(403, 'Unauthorized Action');
+        }
         $listing->delete();
         return redirect('/')->with('message', 'Listing deleted successfully');
     }
