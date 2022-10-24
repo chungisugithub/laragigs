@@ -49,7 +49,7 @@ Route::delete('/listings/{listing}', [ListingController::class, 'destory'])
 ->middleware('auth');
 
 // Manage Listings
-Route::get('/listings/manage', [ListingController::class, 'manage']);
+Route::get('/listings/manage', [ListingController::class, 'manage'])->middleware('auth');
 
 // Single Listing
 Route::get('/listings/{listing}', [ListingController::class, 'show']);
