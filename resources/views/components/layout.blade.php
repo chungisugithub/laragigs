@@ -50,6 +50,7 @@
                         @csrf
                         <button type="submit">
                             <i class="fa-solid fa-door-closed"></i>Logout
+                        </button>
                 </li>
                 @else
                 <li>
