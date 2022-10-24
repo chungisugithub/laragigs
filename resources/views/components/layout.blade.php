@@ -57,6 +57,7 @@
                         Login</a
                     >
                 </li>
+                @endauth
             </ul>
         </nav>
     {{-- VIEW OUTPUT --}}
