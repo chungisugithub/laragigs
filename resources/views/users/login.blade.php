@@ -8,7 +8,7 @@
         <p class="mb-4">Log into your account to post gigs</p>
     </header>
 
-    <form method="POST" action="/users/autheticate">
+    <form method="POST" action="/users/authenticate">
         @csrf
         <div class="mb-6">
             <label for="email" class="inline-block text-lg mb-2"
