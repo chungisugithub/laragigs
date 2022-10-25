@@ -1,3 +1,9 @@
+## Reference Note
+<a href="https://www.youtube.com/watch?v=MYyJ4PuL4pY">Laravel From Scratch 2022 | 4+ Hour Course</a></br>
+If you are a beginner with Laravel, I highly recommend following this tutorial. It will be getting to know Laravel well. <br>
+I spent 3 days learning along with the 4 hour tutorial, but I am very satisfied.<br>
+Really appreciate Brad Traversy
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
