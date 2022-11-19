@@ -9,7 +9,7 @@
 
     @unless(count($listings) == 0)
       @foreach ($listings as $listing)
-
+        <x-listing-card listing="hello" />
       @endforeach
     @else
       <p>No listings found</p>
