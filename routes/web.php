@@ -19,6 +19,4 @@ use App\Models\Listing;
 Route::get('/', [ListingController::class, 'index']);
 
 // Single Listing
-Route::get('/listings/{listing}', function(Listing $listing) {
-
-});
+Route::get('/listings/{listing}', [ListingController::class, 'show']);
