@@ -26,4 +26,9 @@ class ListingController extends Controller
     public function create() {
         return view('listings.create');
     }
+
+    // Store Listing Data
+    public function store(Request $request) {
+        dd($request->all());
+    }
 }
