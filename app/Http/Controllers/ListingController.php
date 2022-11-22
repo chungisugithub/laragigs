@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Models\Listing;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
-use Illuminate\Support\Facades\Session;
 
 class ListingController extends Controller
 {
@@ -42,9 +41,7 @@ class ListingController extends Controller
         ]);
 
         Listing::create($formFields);
-
-        Session::flash('message', 'Listing Created.');
         
-        return redirect('/');
+        return redirect('/')->with('message', 'Listing created successfully!');
     }
 }
