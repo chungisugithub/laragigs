@@ -53,7 +53,6 @@ class ListingController extends Controller
 
     // Show Edit Form
     public function edit(Listing $listing) {
-        dd($listing->location);
         return view('listings.edit', ['listing' => $listing]);
     }
 
