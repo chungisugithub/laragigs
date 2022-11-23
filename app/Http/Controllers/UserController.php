@@ -26,5 +26,7 @@ class UserController extends Controller
         // Create User
         $user = User::create($formFields);
         
+        // Login
+        auth()->login($user);
     }
 }
