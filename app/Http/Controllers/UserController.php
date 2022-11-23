@@ -10,4 +10,16 @@ class UserController extends Controller
     public function create() {
         return view('users.register');
     }
+
+    // Create New User
+    public function store(Request $request) {
+        $formFields = $request->validate([
+            'name' => ['required', 'min:3'],
+            'email' => ['required', 'email'],
+            'password' => ['required', 'confirmed', 'min:5']
+        ]);
+
+
+
+    }
 }
