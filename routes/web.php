@@ -34,7 +34,8 @@ Route::get('/listings/create', [ListingController::class, 'create'])
 ->middleware('auth');
 
 // Store Listing Data
-Route::post('/listings', [ListingController::class, 'store']);
+Route::post('/listings', [ListingController::class, 'store'])
+->middleware('auth');
 
 // Show Edit Form
 Route::get('/listings/{listing}/edit',[ListingController::class, 'edit']);
@@ -60,7 +61,8 @@ Route::post('/users', [UserController::class, 'store']);
 Route::post('/logout', [UserController::class, 'logout']);
 
 // Show Login Form
-Route::get('/login', [UserController::class, 'login']);
+Route::get('/login', [UserController::class, 'login'])
+->name('login');
 
 // Log In User
 Route::post('/users/authenticate', [UserController::class, 'authenticate']);
