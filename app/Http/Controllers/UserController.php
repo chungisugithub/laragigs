@@ -25,6 +25,8 @@ class UserController extends Controller
         // Hash Password
         $formFields['password'] = bcrypt($formFields['password']);
         
+        $formFields['user_id'] = auth()->id();
+
         // Create User
         $user = User::create($formFields);
         
