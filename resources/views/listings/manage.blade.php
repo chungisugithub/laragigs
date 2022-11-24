@@ -1,6 +1,6 @@
 <x-layout>
   <div class="mx-4">
-    <div class="bg-gray-50 border border-gray-200 p-10 rounded">
+    <x-card class="p-10">
         <header>
             <h1 class="text-3xl text-center font-bold my-6 uppercase">
                 Manage Gigs
@@ -50,6 +50,6 @@
                 </tr>
             </tbody>
         </table>
-    </div>
+    </x-card>
 </div>
 </x-layout>
